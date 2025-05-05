@@ -1,108 +1,31 @@
-.container1 {
+.level-1 {
   display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
 }
 
-.container2 {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto;
+.level-1 .peas {
+  grid-column: 1;
+  grid-row: 1;
 }
 
-.container3 {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto auto;
+.level-1 .onions {
+  grid-column: 2;
+  grid-row: 1;
 }
 
-.container4 {
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto auto;
+.level-1 .tomatoes {
+  grid-column: 1;
+  grid-row: 2;
 }
 
-.container5 {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto auto auto auto;
+.level-1 .lettuce {
+  grid-column: 2;
+  grid-row: 2;
 }
 
-.peas2 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.peas3 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.onions3 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
-
-.tomatoes3 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.carrots3 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.peas4 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.onions4 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.carrots4 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.carrots5 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-
-.tomatoes5 {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.peas5 {
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.lettuce5 {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.onions5 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+.level-1 .carrots {
+  grid-column: 1;
+  grid-row: 3;
 }
